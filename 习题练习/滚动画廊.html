@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>图像画廊</title>
+    <style type="text/css">
+      img{
+        width: 400px;height: 350px;border: 2px cadetblue ridge;}
+      ul{list-style-type: none;}
+      li{float: left;}
+    </style>
+</head>
+<body>
+    <h2 align="center">图像画廊</h2>
+    <hr size="4" color="gray">
+<!--    hr的粗细由size设置-->
+    <marquee behavior="scroll"direction="left"scrollamount="40">
+<!--      behavior的属性：scroll 循环滚动 为默认值；slide 滚动一次就停止；alternate 来回交替滚动；-->
+      <img src="t1.jpg" ><img src="t2.jpg" ><img src="t3.jpg" ><img src="t4.jpg" ><img src="t5.jpg" >
+    </marquee>
+    <hr size="4" color="gray">
+</body>
+</html>
