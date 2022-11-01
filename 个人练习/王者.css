@@ -1,0 +1,16 @@
+body{
+    background: url(../个人练习/A.png)no-repeat;
+    background-size: 100%;
+}
+.container{
+
+    width: 985px;
+    height: 552px;
+    margin: 100px auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    width: 960px;height: 150px;
+}
+img{width: 192px;height: 150px;}
