@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title> 登录页面</title>
- <!-- <style type="text/css">
-
-    body{text-align:center;}
-
-  </style>-->
+  <style type="text/css">
+    fieldset{width: 300px;height: 120px;border: 2px solid black;padding-left: 30px;}
+    /*不写线框粗细和类型，不显示方框，且solid为实线；dotted为点虚线；dashed为矩形虚线；double为内外双实线；等*/
+  </style>
 </head>
 <body>
 <form>
   <fieldset>
     <legend>登录页面</legend>
+<!--    legend为在 fieldSet 对象绘制的方框内插入一个标题-->
     用户名:<input type="text"name="username"size="10"><br>
     密码:<input type="password"name="password"size="10"><br>
     类型:<input type="radio"name="c1"value="管理员"checked="checked">管理员&nbsp;&nbsp;
